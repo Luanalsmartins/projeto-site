@@ -7,14 +7,15 @@
 
 body {
     background-color: rgb(201, 120, 201);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     background-color: white;
     width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.307);
     padding: 10px;
 }
